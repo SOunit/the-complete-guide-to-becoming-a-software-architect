@@ -20,7 +20,16 @@
 
 # component architect
 
-- loose couple
+- layer for module
+
+  - access only neighbor layer
+  - hide detail into each layer
+
+  - UI layer
+  - BL(Business Logic) layer
+  - DAL(Data Access Layer)
+
+- interface for loose couple
   - `new is glue`
     - use `Interface`
     - use `DI`
