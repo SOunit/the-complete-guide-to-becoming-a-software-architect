@@ -1,0 +1,3 @@
+# responsibility of architect
+
+-
