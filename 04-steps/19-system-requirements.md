@@ -1,0 +1,4 @@
+- set goal
+- requirements
+  - what the system should do
+- usually defined by `system analyst`
