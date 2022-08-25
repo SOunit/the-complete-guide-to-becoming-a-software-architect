@@ -5,3 +5,4 @@
 # motivation
 
 - avoid strong coupling between classes
+- `new is glue`
