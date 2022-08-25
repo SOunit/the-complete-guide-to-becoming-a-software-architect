@@ -37,3 +37,19 @@
         ICalculate calc = GetInstance();
         double result = calc.add(5,10);
       ```
+
+# exception best practice
+
+- catch if necessary
+
+  - catch if you need some action
+    - retry
+    - rollback
+    - etc.
+  - if not leave logging to central exception handling mechanism
+
+- use specific error class
+
+  - if general, you may catch some error you didn't expect
+
+- wrap smallest chunk of code with try/catch
